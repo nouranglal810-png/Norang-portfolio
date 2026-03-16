@@ -18,13 +18,6 @@ const projects = [
     image: "/images/ai-url-analyzer.png",
     link: "https://github.com/nouranglal810-png/AI-URL-Risk-Analyzer",
   },
-  {
-    title: "Image Generator",
-    category: "AI Image Generation Platform",
-    tools: "TypeScript, React, Gemini API, Vite, Node.js",
-    image: "/images/image-generator.png",
-    link: "https://github.com/nouranglal810-png/Image-Generator",
-  },
 ];
 
 const Work = () => {
