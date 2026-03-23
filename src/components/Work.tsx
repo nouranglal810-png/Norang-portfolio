@@ -5,6 +5,13 @@ import { MdArrowBack, MdArrowForward, MdArrowOutward } from "react-icons/md";
 
 const projects = [
   {
+    title: "FaceScan AI",
+    category: "Real-time Face Recognition & Analytics",
+    tools: "Python, Flask, dlib, OpenCV, face_recognition, Pillow",
+    image: "/images/facescan-ai.png",
+    link: "https://github.com/nouranglal810-png/face-recognition-engine",
+  },
+  {
     title: "GLOB AI",
     category: "AI-Driven Cybersecurity Assistant",
     tools: "HTML5, CSS3, JavaScript, AI APIs, Speech Recognition, Particles.js",
@@ -107,7 +114,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                        link={project.link}
+                      />
                     </div>
                   </div>
                 </div>
