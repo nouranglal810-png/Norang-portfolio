@@ -25,6 +25,13 @@ const projects = [
     image: "/images/ai-url-analyzer.png",
     link: "https://github.com/nouranglal810-png/AI-URL-Risk-Analyzer",
   },
+  {
+    title: "AgriVision",
+    category: "AI-Powered Crop Disease Diagnostics",
+    tools: "React, Node.js, Express, ML Models, Gemini API, Python",
+    image: "/images/agrivision.png",
+    link: "https://github.com/nouranglal810-png/AgriVision",
+  },
 ];
 
 const Work = () => {
